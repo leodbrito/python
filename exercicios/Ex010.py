@@ -4,6 +4,6 @@
 # dolares ela pode comprar.
 # Considere US$ 1 = R$ 3,93
 
-r = float(input('Quantos Reais você tem na carteira? '))
+r = float(input('Quantos Reais você tem na carteira? R$ '))
 d = r/3.93
-print('Você pode comprar US${:.2f}'.format(d))
+print('Com R$ {}, você pode comprar US$ {:.2f}'.format(r, d))

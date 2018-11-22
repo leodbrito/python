@@ -2,5 +2,5 @@
 # o preço de um produto e mostre seu
 # novo preço, com 5% de desconto.
 
-p = float(input('Digite o preço de um produto: '))
-print('\nEste produto custará R${:.2f} com 5% de desconto!'.format(p-p*0.05))
+p = float(input('Digite o preço de um produto: R$ '))
+print('\nEste produto custará R$ {:.2f} com 5% de desconto!'.format(p-p*0.05))
